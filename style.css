@@ -2,6 +2,7 @@ body{
 
     font-family: 'The Nautigal', cursive;
     font-size: 40px;
+    margin: 0;
    
 }
 
@@ -18,4 +19,58 @@ body{
    padding: 5px 5px;
    border-radius: 5px;
 
+}
+
+.flex-container{
+    display: flex;
+    margin-bottom: 200px;
+    
+}
+
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 600px;
+    padding-left: 100px;
+   
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+   
+}
+
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, blue);
+    border-image-slice: 1;
+    
+    }
+
+    #baby-developer{
+        border-left: 7px solid;
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+    }
+
+
+footer p {
+    text-align: center;
 }
