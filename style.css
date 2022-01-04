@@ -1,12 +1,13 @@
 body{
 
-    font-family: 'The Nautigal', cursive;
-    font-size: 40px;
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+     margin: 0;
    
 }
 
-
+H1{
+    font-size: 80px;
+}
 
 .color{
     color:orange;
@@ -74,3 +75,10 @@ body{
 footer p {
     text-align: center;
 }
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    section {
+        width: 30%;
+    }
+  }
