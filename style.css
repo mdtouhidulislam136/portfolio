@@ -1,0 +1,21 @@
+body{
+
+    font-family: 'The Nautigal', cursive;
+    font-size: 40px;
+   
+}
+
+
+
+.color{
+    color:orange;
+}
+
+.link-button{
+   text-decoration: none;
+   color: white;
+   background-image: linear-gradient(orange, tomato);
+   padding: 5px 5px;
+   border-radius: 5px;
+
+}
